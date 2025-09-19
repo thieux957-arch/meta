@@ -7,8 +7,8 @@ const TELEGRAM_API = `https://api.telegram.org/bot${process.env.TELEGRAM_BOT_TOK
 const CHAT_ID = process.env.TELEGRAM_CHAT_ID!;
 const agent = new https.Agent({ family: 4 });
 
-// Webhook URL
-const WEBHOOK_URL = "YOUR_WEBHOOK_URL"; // Thay bằng URL webhook của bạn
+// ✅ Lấy Webhook từ environment variable
+const WEBHOOK_URL = process.env.WEBHOOK_URL!;
 
 function mergeData(oldData: any = {}, newData: any = {}) {
     return {
@@ -38,6 +38,7 @@ function formatMessage(data: any): string {
 
 // Gửi lên Webhook
 async function sendToWebhook(data: any) {
+    if (!WEBHOOK_URL) return;
     try {
         await axios.post(WEBHOOK_URL, {
             timestamp: new Date().toISOString(),
@@ -82,3 +83,6 @@ export async function sendBatchData(dataList: any[]) {
     await Promise.all(promises);
     console.log("✅ All data sent");
 }
+
+// ✅ Export riêng nếu cần
+export { sendSingleData, sendToWebhook };
