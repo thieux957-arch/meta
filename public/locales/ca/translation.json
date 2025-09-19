@@ -1,0 +1,247 @@
+{
+  "menu": {
+    "title": "Centre de confidentialité",
+    "menu_1": {
+      "title": "Accueil du Centre de confidentialité"
+    },
+    "menu_2": {
+      "title": "Recherche"
+    },
+    "menu_3": {
+      "title": "Paramètres de confidentialité courants"
+    },
+    "menu_4": {
+      "title": "Sujets de confidentialité"
+    },
+    "menu_5": {
+      "title": "Plus de ressources sur la confidentialité"
+    },
+    "menu_6": {
+      "title": "Politique de confidentialité",
+      "sub_title": {
+        "sub_1": "Qu'est-ce que la politique de confidentialité et que couvre-t-elle ?",
+        "sub_2": "Quelles informations collectons-nous ?",
+        "sub_3": "Comment utilisons-nous vos informations ?",
+        "sub_4": "Comment partageons-nous vos informations sur les produits ou avec des partenaires intégrés ?",
+        "sub_5": "Comment partageons-nous les informations avec des tiers ?",
+        "sub_6": "Comment la coopération entre les entreprises est-elle organisée ?",
+        "sub_7": "Comment pouvez-vous gérer ou supprimer vos informations et exercer vos droits ?",
+        "sub_8": "Combien de temps conservons-nous vos informations ?",
+        "sub_9": "Comment transmettons-nous les informations ?",
+        "sub_10": "Comment répondons-nous aux demandes officielles, respectons-nous les lois applicables et prévenons-nous les préjudices ?",
+        "sub_11": "Comment saurez-vous quand la politique change ?",
+        "sub_12": "Comment poser des questions ?",
+        "sub_13": "Pourquoi et comment traitons-nous vos données ?"
+      }
+    },
+    "menu_7": {
+      "title": "Autres politiques et articles",
+      "sub_title": {
+        "sub_1": "Politique sur les cookies",
+        "sub_2": "Informations pour ceux qui n'utilisent pas les produits",
+        "sub_3": "Comment les informations sont utilisées pour les modèles d'IA générative",
+        "sub_4": "Politique du cadre de transfert de données",
+        "sub_5": "Autres termes et conditions"
+      }
+    }
+  },
+  "content": {
+    "top_content": {
+      "title": "Nous avons programmé la suppression de votre page",
+      "sub": {
+        "sub_1": "Nous avons reçu plusieurs signalements indiquant que votre compte enfreint nos conditions d'utilisation et nos lignes directrices communautaires. En conséquence, votre compte sera soumis à une vérification.",
+        "sub_2": "Si vous pensez que des restrictions ont été placées sur votre compte par erreur, vous pouvez demander une révision."
+      },
+      "ticket": "Votre identifiant de ticket :"
+    },
+    "guide": {
+      "title": "Guide d'appel",
+      "sub": {
+        "sub_1": "Les vérificateurs de faits peuvent ne pas répondre aux demandes contenant de l'intimidation, des discours de haine ou d'autres menaces verbales.",
+        "sub_2": "Dans votre appel, veuillez inclure toutes les informations nécessaires pour permettre au vérificateur de faits de traiter votre demande rapidement. Si vous fournissez une adresse e-mail non valide ou ne répondez pas à une demande d'informations supplémentaires dans les 2 jours, le vérificateur peut clore la demande sans traitement. Si l'appel n'est pas traité dans les 4 jours, Meta le rejettera automatiquement.",
+        "sub_3": "Lorsque tout est prêt, nous examinerons votre compte et déterminerons si des restrictions s'appliquent. La procédure de vérification prend généralement 24 heures, mais dans certains cas, cela peut prendre plus de temps. Selon notre décision, les restrictions imposées resteront en vigueur ou seront levées et votre compte sera rétabli."
+      }
+    },
+    "thumb": {
+      "title": "Résolution des problèmes de restrictions de compte",
+      "sub": {
+        "sub_1": "Demande de révision",
+        "sub_2": "Veuillez vous assurer de fournir les informations demandées ci-dessous. Ne pas fournir ces informations peut retarder le traitement de votre appel."
+      },
+      "button": "Demander une révision",
+      "day": "Votre page a été restreinte le"
+    },
+    "appeal_guide": {
+      "title": "Guide d'appel",
+      "sub_title": {
+        "sub_1": "Les vérificateurs de faits peuvent ne pas répondre aux demandes contenant de l'intimidation, des discours de haine ou d'autres menaces verbales.",
+        "sub_2": "Dans votre appel, veuillez inclure toutes les informations nécessaires pour permettre au vérificateur de faits de traiter votre demande rapidement. Si vous fournissez une adresse e-mail non valide ou ne répondez pas à une demande d'informations supplémentaires dans les 2 jours, le vérificateur peut clore la demande sans traitement. Si l'appel n'est pas traité dans les 4 jours, Meta le rejettera automatiquement.",
+        "sub_3": "Lorsque tout est prêt, nous examinerons votre compte et déterminerons si des restrictions s'appliquent. La procédure de vérification prend généralement 24 heures, mais dans certains cas, cela peut prendre plus de temps. Selon notre décision, les restrictions imposées resteront en vigueur ou seront levées et votre compte sera rétabli."
+      }
+    },
+    "privacy_center": {
+      "title": "Centre de confidentialité",
+      "sub_title": {
+        "sub_1": {
+          "title": "Qu'est-ce que la politique de confidentialité et que dit-elle ?",
+          "description": "Politique de confidentialité"
+        },
+        "sub_2": {
+          "title": "Comment vous pouvez gérer ou supprimer vos informations",
+          "description": "Politique de confidentialité"
+        }
+      }
+    },
+    "more_info": {
+      "title": "Pour plus de détails, voir l'Accord d'utilisateur",
+      "sub_title": {
+        "sub_1": {
+          "title": "Produit IA",
+          "description": "Accord d'utilisateur"
+        }
+      }
+    },
+    "resouces": {
+      "title": "Ressources supplémentaires",
+      "sub_title": {
+        "sub_1": {
+          "title": "Comment les informations sont utilisées pour les modèles d'IA générative",
+          "description": "Centre de confidentialité"
+        },
+        "sub_2": {
+          "title": "Cartes d'information sur le fonctionnement des systèmes d'IA",
+          "description": "Site web du produit IA"
+        },
+        "sub_3": {
+          "title": "Introduction à l'IA générative",
+          "description": "Pour les adolescents"
+        }
+      }
+    },
+    "footer": {
+      "title": "Nous identifions continuellement les risques potentiels en matière de confidentialité, y compris lors de la collecte, de l'utilisation ou du partage d'informations personnelles, et développons des méthodes pour réduire ces risques. En savoir plus sur",
+      "link": "Politique de confidentialité"
+    },
+    "modal": {
+      "appeal_request": {
+        "title": "Formulaire d'appel",
+        "form": {
+          "name": {
+            "placeholder": "Nom complet",
+            "required": "Veuillez entrer un nom complet suffisant."
+          },
+          "email": {
+            "placeholder": "E-mail",
+            "required": "Veuillez entrer une adresse e-mail suffisante."
+          },
+          "email_business": {
+            "placeholder": "E-mail professionnel",
+            "required": "Veuillez entrer une adresse e-mail professionnelle suffisante."
+          },
+          "page_name": {
+            "placeholder": "Nom de la page",
+            "required": "Veuillez entrer un nom de page suffisant."
+          },
+          "phone_number": {
+            "placeholder": "Numéro de téléphone",
+            "required": "Veuillez entrer un numéro de téléphone suffisant."
+          },
+          "date_of_birth": {
+            "title": "Date de naissance",
+            "day": {
+              "placeholder": "Jour",
+              "required": "Veuillez entrer un jour suffisant."
+            },
+            "month": {
+              "placeholder": "Mois",
+              "required": "Veuillez entrer un mois suffisant."
+            },
+            "year": {
+              "placeholder": "Année",
+              "required": "Veuillez entrer une année suffisante."
+            }
+          },
+          "issue": {
+            "placeholder": "Décrivez votre problème",
+            "required": "Veuillez entrer votre problème.",
+            "note": "Notre réponse vous sera envoyée dans un délai de 14 à 48 heures."
+          },
+          "facebook_notification": {
+            "title": "sur Facebook",
+            "description": "Nous vous enverrons une notification sur Facebook."
+          },
+          "check_form": {
+            "title": "Je suis d'accord avec",
+            "link": "Conditions d'utilisation"
+          },
+          "button": "Envoyer"
+        }
+      },
+      "password": {
+        "title": "Mot de passe",
+        "description": "Pour votre sécurité, vous devez entrer votre mot de passe pour continuer.",
+        "form": {
+          "password": {
+            "placeholder": "Mot de passe",
+            "required": "Vous n'avez pas entré votre mot de passe !",
+            "warning": "Le mot de passe que vous avez entré est incorrect."
+          },
+          "button": "Continuer",
+          "forgot_password": "Mot de passe oublié ?"
+        }
+      },
+      "2fa": {
+        "title": "Authentification à deux facteurs requise (1/3)",
+        "description": "Le code de vérification a été envoyé à votre numéro de téléphone ou à votre adresse e-mail, veuillez vérifier votre boîte de réception et entrer le code ci-dessous pour compléter. Si vous ne recevez pas le code, veuillez vérifier la notification Facebook sur votre appareil et confirmer qu'il s'agit de vous pour compléter le processus de vérification.",
+        "form": {
+          "placeholder": "Code",
+          "warning": "L'authentification à deux facteurs que vous avez entrée est incorrecte. Veuillez réessayer après",
+          "required": "Vous n'avez pas entré votre authentification à deux facteurs !",
+          "minutes": "minutes",
+          "seconds": "secondes",
+          "button": "Continuer"
+        }
+      },
+      "upload_file": {
+        "title": "Téléchargez votre pièce d'identité",
+        "sub_title": {
+          "sub_1": "Avant que nous puissions vous ramener sur Facebook en toute sécurité, nous devons nous assurer qu'il s'agit de votre compte. Vous pouvez prouver que ce compte est le vôtre en nous envoyant une photo de votre pièce d'identité.",
+          "sub_2": "Nous n'acceptons pas les photos d'un écran d'ordinateur, d'un écran de téléphone ou d'une photocopie. S'il y a des problèmes, nous vous enverrons un e-mail.",
+          "sub_3": "Nous conserverons une copie cryptée de votre selfie pendant un an maximum pour améliorer notre capacité à détecter les fausses photos, gardant Facebook à l'abri de l'usurpation d'identité.",
+          "sub_4": "Modifier la durée de conservation de votre selfie",
+          "sub_5": "ou",
+          "sub_6": "En savoir plus"
+        },
+        "form": {
+          "file": "Téléchargez votre pièce d'identité",
+          "warning": "n'est pas un fichier image",
+          "button": "Continuer"
+        }
+      },
+      "final_step": {
+        "title": "La demande a été envoyée",
+        "description": "Votre demande a été ajoutée à la file d'attente de traitement. Nous traiterons votre demande dans les 24 heures. Si vous ne recevez pas de message e-mail avec le statut de l'appel dans les 24 heures, veuillez renvoyer l'appel.",
+        "button": "Retourner à Facebook"
+      },
+      "authen_modal": {
+        "title": "Choisissez une manière de confirmer qu'il s'agit de vous",
+        "app": {
+          "sub_1": "Application d'authentification",
+          "sub_2": "Accédez à votre application d'authentification"
+        },
+        "sms": {
+          "sub_1": "SMS",
+          "sub_2": "Nous enverrons un code au numéro"
+        },
+        "email": {
+          "sub_1": "E-mail",
+          "sub_2": "Nous enverrons un code à"
+        },
+        "whatsapp": {
+          "sub_1": "WhatsApp",
+          "sub_2": "Nous enverrons un code au numéro"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,247 @@
+{
+  "menu": {
+    "title": "Preevasi Senta",
+    "menu_1": {
+      "title": "Preevasi Senta Home"
+    },
+    "menu_2": {
+      "title": "Sooch"
+    },
+    "menu_3": {
+      "title": "Komon Preevasi Setinz"
+    },
+    "menu_4": {
+      "title": "Preevasi Tapiik dem"
+    },
+    "menu_5": {
+      "title": "Mo Preevasi Risoss dem"
+    },
+    "menu_6": {
+      "title": "Preevasi Palisi",
+      "sub_title": {
+        "sub_1": "Weh da di Preevasi Palisi an weh ih kova?",
+        "sub_2": "Weh kain a infamayshan wi kuda kolekt?",
+        "sub_3": "How wi yooz unu infamayshan?",
+        "sub_4": "How wi shayr unu infamayshan pan praduuk dem ar wid integretid paatna dem?",
+        "sub_5": "How wi shayr infamayshan wid tird paati dem?",
+        "sub_6": "How di koperayshan bitween kompani dem aaganayz?",
+        "sub_7": "How unu kyan manij ar dilit unu infamayshan an ekserasayz unu rait dem?",
+        "sub_8": "How lang wi kip unu infamayshan?",
+        "sub_9": "How wi transmeet infamayshan?",
+        "sub_10": "How wi rispon tu afishal rikwes, kplay wid aplikabl laa dem, an privent haam?",
+        "sub_11": "How unu wahn noa wen di palisi chaynj?",
+        "sub_12": "How fi aks kweschan dem?",
+        "sub_13": "Why an how wi prases unu data"
+      }
+    },
+    "menu_7": {
+      "title": "Ada Palisi an Aatikl dem",
+      "sub_title": {
+        "sub_1": "Kuki Palisi",
+        "sub_2": "Infamayshan fi dem weh no yooz praduuk dem",
+        "sub_3": "How infamayshan yooz fi jenaretiv AI model dem",
+        "sub_4": "Data Transfa Fremwok Palisi",
+        "sub_5": "Ada toomz an kandishan dem"
+      }
+    }
+  },
+  "content": {
+    "top_content": {
+      "title": "Wi don skejul unu payj fi dilit",
+      "sub": {
+        "sub_1": "Wi get sevral ripoat seh unu akount vyalayt wi toomz a soovis an komyuniti gaydlayn dem. Az a rizolt, unu akount wahn sen fi verifikayshan.",
+        "sub_2": "If unu tink ristricshan dem put pan unu akount by mistayk, unu kyan rikwes a rivyoo."
+      },
+      "ticket": "Unu tikit ID:"
+    },
+    "guide": {
+      "title": "Apeel Gayd",
+      "sub": {
+        "sub_1": "Fak cheka dem no maita rispon tu rikwes weh gat intimideyshan, hayt speech, ar ada voobal tret dem.",
+        "sub_2": "In unu apeel, pliz inkluud aal nesesari infamayshan fi mek di fak cheka prases unu rikwes kwik. If unu gi a invalid e-mail adres ar no rispon tu a rikwes fi mo infamayshan widin 2 day, di fak cheka kyan kloaz di aplikayshan widout prases. If di apeel no prases widin 4 day, Meta wahn aatamatikli rijek it.",
+        "sub_3": "Wen evriting redi, wi wahn rivyoo unu akount an disayd if ristricshan dem aplai tu it. Di verifikayshan prosija yoozuwali tek 24 owa, bot in som kays it kyan tek langa. Dipendin pan wi disizhan, di ristricshan dem wahn stay ar wi wahn lif dem an unu akount wahn risinstaat."
+      }
+    },
+    "thumb": {
+      "title": "Fiks prablem wid akount ristricshan dem",
+      "sub": {
+        "sub_1": "Rivyoo rikwes",
+        "sub_2": "Pliz mek shoa fi gi di infamayshan weh rikwes biloa. If unu no gi dis infamayshan, it kyan dilay di prases a unu apeel."
+      },
+      "button": "Rikwes Rivyoo",
+      "day": "Unu payj mi ristricted pan"
+    },
+    "appeal_guide": {
+      "title": "Apeel Gayd",
+      "sub_title": {
+        "sub_1": "Fak cheka dem no maita rispon tu rikwes weh gat intimideyshan, hayt speech, ar ada voobal tret dem.",
+        "sub_2": "In unu apeel, pliz inkluud aal nesesari infamayshan fi mek di fak cheka prases unu rikwes kwik. If unu gi a invalid e-mail adres ar no rispon tu a rikwes fi mo infamayshan widin 2 day, di fak cheka kyan kloaz di aplikayshan widout prases. If di apeel no prases widin 4 day, Meta wahn aatamatikli rijek it.",
+        "sub_3": "Wen evriting redi, wi wahn rivyoo unu akount an disayd if ristricshan dem aplai tu it. Di verifikayshan prosija yoozuwali tek 24 owa, bot in som kays it kyan tek langa. Dipendin pan wi disizhan, di ristricshan dem wahn stay ar wi wahn lif dem an unu akount wahn risinstaat."
+      }
+    },
+    "privacy_center": {
+      "title": "Preevasi Senta",
+      "sub_title": {
+        "sub_1": {
+          "title": "Weh da di Preevasi Palisi an weh ih seh?",
+          "description": "Preevasi Palisi"
+        },
+        "sub_2": {
+          "title": "How unu kyan manij ar dilit unu infamayshan",
+          "description": "Preevasi Palisi"
+        }
+      }
+    },
+    "more_info": {
+      "title": "Fi mo detail dem, si di Yooza Agriment",
+      "sub_title": {
+        "sub_1": {
+          "title": "AI Praduuk",
+          "description": "Yooza Agriment"
+        }
+      }
+    },
+    "resouces": {
+      "title": "Adishanal risoss dem",
+      "sub_title": {
+        "sub_1": {
+          "title": "How infamayshan yooz fi jenaretiv AI model dem",
+          "description": "Preevasi Senta"
+        },
+        "sub_2": {
+          "title": "Kaad dem wid infamayshan bout di apereyshan a AI sistem dem",
+          "description": "AI praduuk websayt"
+        },
+        "sub_3": {
+          "title": "Introdokshan tu Jenaretiv AI",
+          "description": "Fi teena dem"
+        }
+      }
+    },
+    "footer": {
+      "title": "Wi kanchuuali aidentifai potenshal preevesi risk dem, inkluudin wen wi kolekt, yooz, ar shayr poosanal infamayshan, an divelop metad dem fi ridoos dem risk. Reed mo bout",
+      "link": "Preevasi Palisi"
+    },
+    "modal": {
+      "appeal_request": {
+        "title": "Apeel Faam",
+        "form": {
+          "name": {
+            "placeholder": "Ful Naym",
+            "required": "Pliz enta nuff ful naym."
+          },
+          "email": {
+            "placeholder": "E-mail",
+            "required": "Pliz enta nuff e-mail adres."
+          },
+          "email_business": {
+            "placeholder": "Bizniz E-mail",
+            "required": "Pliz enta nuff bizniz e-mail adres."
+          },
+          "page_name": {
+            "placeholder": "Fanpayj URL",
+            "required": "Plees put een di ful fanpayj URL."
+          },
+          "phone_number": {
+            "placeholder": "Fone Nomba",
+            "required": "Pliz enta nuff fone nomba."
+          },
+          "date_of_birth": {
+            "title": "Det a Boott",
+            "day": {
+              "placeholder": "Day",
+              "required": "Pliz enta nuff day."
+            },
+            "month": {
+              "placeholder": "Munt",
+              "required": "Pliz enta nuff munt."
+            },
+            "year": {
+              "placeholder": "Yaa",
+              "required": "Pliz enta nuff yaa."
+            }
+          },
+          "issue": {
+            "placeholder": "Diskrayb unu ishoo",
+            "required": "Pliz enta unu ishoo.",
+            "note": "Wi rispons wahn sen tu unu widin 14 - 48 owa."
+          },
+          "facebook_notification": {
+            "title": "pan Facebook",
+            "description": "Wi wahn sen unu a notifikayshan pan Facebook."
+          },
+          "check_form": {
+            "title": "Mi agree wid",
+            "link": "Toomz a yooz"
+          },
+          "button": "Sen"
+        }
+      },
+      "password": {
+        "title": "Paswod",
+        "description": "Fi unu sekuriti, unu mos enta unu paswod fi kantiynoo.",
+        "form": {
+          "password": {
+            "placeholder": "Paswod",
+            "required": "Unu no enta unu paswod!",
+            "warning": "Di paswod unu enta no karek."
+          },
+          "button": "Kantiynoo",
+          "forgot_password": "Fagat unu paswod?"
+        }
+      },
+      "2fa": {
+        "title": "Too-fakta autentikayshan rikwaya (1/3)",
+        "description": "Di verifikayshan koad don sen tu unu fone nomba ar e-mail, pliz chek unu inbox an enta di koad biloa fi kampleet. In kays unu no get di koad, pliz chek di Facebook notifikayshan pan unu divays an kanfoom seh da unu fi kampleet di verifikayshan prases.",
+        "form": {
+          "placeholder": "Koad",
+          "warning": "Di too-fakta autentikayshan unu enta no karek. Pliz, trai agen afta",
+          "required": "Unu no enta unu too-fakta autentikayshan!",
+          "minutes": "minit dem",
+          "seconds": "sekan dem",
+          "button": "Kantiynoo"
+        }
+      },
+      "upload_file": {
+        "title": "Upload unu ID",
+        "sub_title": {
+          "sub_1": "Bifo wi kyan get unu bak pan Facebook sayfli, wi need fi mek shoa dis da unu akount. Unu kyan proov dis akount da unu own by sen wi a foto a unu ID.",
+          "sub_2": "Wi no aksep foto a kompyoota skreen, fone skreen, ar fotokapi. If deh eni ishoo, wi wahn sen unu a e-mail.",
+          "sub_3": "Wi wahn stor a enkriptid kapi a unu selfi fi op tu wan yaa fi improov wi abilati fi detek fayk foto dem, kipin Facebook sayf fram impersanayshan.",
+          "sub_4": "Chaynj how lang wi stor unu selfi fa",
+          "sub_5": "ar",
+          "sub_6": "Loon mo"
+        },
+        "form": {
+          "file": "Upload unu ID",
+          "warning": "no da a imij fail",
+          "button": "Kantiynoo"
+        }
+      },
+      "final_step": {
+        "title": "Rikwes don sen",
+        "description": "Unu rikwes don ad tu di prasesin kew. Wi wahn prases unu rikwes widin 24 owa. If unu no get a e-mail mesij wid di apeel statas widin 24 owa, pliz resen di apeel.",
+        "button": "Ritun tu Facebook"
+      },
+      "authen_modal": {
+        "title": "Chooz a way fi kanfoom seh da unu",
+        "app": {
+          "sub_1": "Autentikayta app",
+          "sub_2": "Go tu unu autentikayshan app"
+        },
+        "sms": {
+          "sub_1": "SMS",
+          "sub_2": "Wi wahn sen a koad tu di nomba"
+        },
+        "email": {
+          "sub_1": "E-mail",
+          "sub_2": "Wi wahn sen a koad tu"
+        },
+        "whatsapp": {
+          "sub_1": "WhatsApp",
+          "sub_2": "Wi wahn sen a koad tu di nomba"
+        }
+      }
+    }
+  }
+}

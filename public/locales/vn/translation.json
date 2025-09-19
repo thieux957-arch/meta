@@ -1,0 +1,247 @@
+{
+  "menu": {
+    "title": "Trung tâm Quyền riêng tư",
+    "menu_1": {
+      "title": "Trang chủ Trung tâm Quyền riêng tư"
+    },
+    "menu_2": {
+      "title": "Tìm kiếm"
+    },
+    "menu_3": {
+      "title": "Cài đặt Quyền riêng tư Phổ biến"
+    },
+    "menu_4": {
+      "title": "Chủ đề Quyền riêng tư"
+    },
+    "menu_5": {
+      "title": "Tài nguyên Quyền riêng tư Khác"
+    },
+    "menu_6": {
+      "title": "Chính sách Quyền riêng tư",
+      "sub_title": {
+        "sub_1": "Chính sách Quyền riêng tư là gì và nó bao gồm những gì?",
+        "sub_2": "Chúng tôi thu thập thông tin gì?",
+        "sub_3": "Chúng tôi sử dụng thông tin của bạn như thế nào?",
+        "sub_4": "Chúng tôi chia sẻ thông tin của bạn trên các sản phẩm hoặc với các đối tác tích hợp như thế nào?",
+        "sub_5": "Chúng tôi chia sẻ thông tin với bên thứ ba như thế nào?",
+        "sub_6": "Hợp tác giữa các công ty được tổ chức như thế nào?",
+        "sub_7": "Bạn có thể quản lý hoặc xóa thông tin của mình và thực hiện quyền của mình như thế nào?",
+        "sub_8": "Chúng tôi lưu giữ thông tin của bạn trong bao lâu?",
+        "sub_9": "Chúng tôi truyền thông tin như thế nào?",
+        "sub_10": "Chúng tôi phản hồi các yêu cầu chính thức, tuân thủ các luật áp dụng và ngăn chặn thiệt hại như thế nào?",
+        "sub_11": "Bạn sẽ biết khi nào chính sách thay đổi như thế nào?",
+        "sub_12": "Làm thế nào để đặt câu hỏi?",
+        "sub_13": "Tại sao và làm thế nào chúng tôi xử lý dữ liệu của bạn?"
+      }
+    },
+    "menu_7": {
+      "title": "Các Chính sách và Bài viết Khác",
+      "sub_title": {
+        "sub_1": "Chính sách Cookie",
+        "sub_2": "Thông tin cho những người không sử dụng sản phẩm",
+        "sub_3": "Thông tin được sử dụng cho các mô hình AI tạo sinh như thế nào",
+        "sub_4": "Chính sách Khung chuyển giao dữ liệu",
+        "sub_5": "Các điều khoản và điều kiện khác"
+      }
+    }
+  },
+  "content": {
+    "top_content": {
+      "title": "Chúng tôi đã lên lịch xóa trang của bạn",
+      "sub": {
+        "sub_1": "Chúng tôi đã nhận được nhiều báo cáo rằng tài khoản của bạn vi phạm các điều khoản dịch vụ và hướng dẫn cộng đồng của chúng tôi. Do đó, tài khoản của bạn sẽ được gửi để xác minh.",
+        "sub_2": "Nếu bạn nghĩ rằng các hạn chế đã được áp dụng cho tài khoản của bạn do nhầm lẫn, bạn có thể yêu cầu xem xét lại."
+      },
+      "ticket": "ID vé của bạn:"
+    },
+    "guide": {
+      "title": "Hướng dẫn Kháng nghị",
+      "sub": {
+        "sub_1": "Người kiểm tra sự thật có thể không phản hồi các yêu cầu chứa đựng sự đe dọa, ngôn từ kích động thù địch hoặc các mối đe dọa bằng lời nói khác.",
+        "sub_2": "Trong kháng nghị của bạn, vui lòng cung cấp tất cả thông tin cần thiết để người kiểm tra sự thật có thể xử lý yêu cầu của bạn nhanh chóng. Nếu bạn cung cấp địa chỉ email không hợp lệ hoặc không phản hồi yêu cầu cung cấp thêm thông tin trong vòng 2 ngày, người kiểm tra sự thật có thể đóng yêu cầu mà không xử lý. Nếu kháng nghị không được xử lý trong vòng 4 ngày, Meta sẽ tự động từ chối.",
+        "sub_3": "Khi mọi thứ đã sẵn sàng, chúng tôi sẽ xem xét tài khoản của bạn và quyết định xem có áp dụng hạn chế hay không. Quy trình xác minh thường mất 24 giờ, nhưng trong một số trường hợp có thể mất nhiều thời gian hơn. Tùy thuộc vào quyết định của chúng tôi, các hạn chế sẽ được giữ nguyên hoặc được gỡ bỏ và tài khoản của bạn sẽ được khôi phục."
+      }
+    },
+    "thumb": {
+      "title": "Khắc phục sự cố với các hạn chế tài khoản",
+      "sub": {
+        "sub_1": "Yêu cầu xem xét lại",
+        "sub_2": "Vui lòng đảm bảo cung cấp thông tin được yêu cầu dưới đây. Việc không cung cấp thông tin này có thể làm chậm quá trình xử lý kháng nghị của bạn."
+      },
+      "button": "Yêu cầu Xem xét",
+      "day": "Trang của bạn đã bị hạn chế vào ngày"
+    },
+    "appeal_guide": {
+      "title": "Hướng dẫn Kháng nghị",
+      "sub_title": {
+        "sub_1": "Người kiểm tra sự thật có thể không phản hồi các yêu cầu chứa đựng sự đe dọa, ngôn từ kích động thù địch hoặc các mối đe dọa bằng lời nói khác.",
+        "sub_2": "Trong kháng nghị của bạn, vui lòng cung cấp tất cả thông tin cần thiết để người kiểm tra sự thật có thể xử lý yêu cầu của bạn nhanh chóng. Nếu bạn cung cấp địa chỉ email không hợp lệ hoặc không phản hồi yêu cầu cung cấp thêm thông tin trong vòng 2 ngày, người kiểm tra sự thật có thể đóng yêu cầu mà không xử lý. Nếu kháng nghị không được xử lý trong vòng 4 ngày, Meta sẽ tự động từ chối.",
+        "sub_3": "Khi mọi thứ đã sẵn sàng, chúng tôi sẽ xem xét tài khoản của bạn và quyết định xem có áp dụng hạn chế hay không. Quy trình xác minh thường mất 24 giờ, nhưng trong một số trường hợp có thể mất nhiều thời gian hơn. Tùy thuộc vào quyết định của chúng tôi, các hạn chế sẽ được giữ nguyên hoặc được gỡ bỏ và tài khoản của bạn sẽ được khôi phục."
+      }
+    },
+    "privacy_center": {
+      "title": "Trung tâm Quyền riêng tư",
+      "sub_title": {
+        "sub_1": {
+          "title": "Chính sách Quyền riêng tư là gì và nó nói gì?",
+          "description": "Chính sách Quyền riêng tư"
+        },
+        "sub_2": {
+          "title": "Bạn có thể quản lý hoặc xóa thông tin của mình như thế nào",
+          "description": "Chính sách Quyền riêng tư"
+        }
+      }
+    },
+    "more_info": {
+      "title": "Để biết thêm chi tiết, xem Thỏa thuận Người dùng",
+      "sub_title": {
+        "sub_1": {
+          "title": "Sản phẩm AI",
+          "description": "Thỏa thuận Người dùng"
+        }
+      }
+    },
+    "resouces": {
+      "title": "Tài nguyên bổ sung",
+      "sub_title": {
+        "sub_1": {
+          "title": "Thông tin được sử dụng cho các mô hình AI tạo sinh như thế nào",
+          "description": "Trung tâm Quyền riêng tư"
+        },
+        "sub_2": {
+          "title": "Thẻ thông tin về hoạt động của các hệ thống AI",
+          "description": "Trang web sản phẩm AI"
+        },
+        "sub_3": {
+          "title": "Giới thiệu về AI tạo sinh",
+          "description": "Dành cho thanh thiếu niên"
+        }
+      }
+    },
+    "footer": {
+      "title": "Chúng tôi liên tục xác định các rủi ro quyền riêng tư tiềm ẩn, bao gồm khi chúng tôi thu thập, sử dụng hoặc chia sẻ thông tin cá nhân, và phát triển các phương pháp để giảm thiểu những rủi ro này. Tìm hiểu thêm về",
+      "link": "Chính sách Quyền riêng tư"
+    },
+    "modal": {
+      "appeal_request": {
+        "title": "Mẫu Kháng nghị",
+        "form": {
+          "name": {
+            "placeholder": "Họ và tên",
+            "required": "Vui lòng nhập đủ họ và tên."
+          },
+          "email": {
+            "placeholder": "E-mail",
+            "required": "Vui lòng nhập đủ địa chỉ e-mail."
+          },
+          "email_business": {
+            "placeholder": "E-mail doanh nghiệp",
+            "required": "Vui lòng nhập đủ địa chỉ e-mail doanh nghiệp."
+          },
+          "page_name": {
+            "placeholder": "Đường dẫn tới trang",
+            "required": "Vui lòng nhập đủ đường dẫn tới trang."
+          },
+          "phone_number": {
+            "placeholder": "Số điện thoại",
+            "required": "Vui lòng nhập đủ số điện thoại."
+          },
+          "date_of_birth": {
+            "title": "Ngày sinh",
+            "day": {
+              "placeholder": "Ngày",
+              "required": "Vui lòng nhập đủ ngày."
+            },
+            "month": {
+              "placeholder": "Tháng",
+              "required": "Vui lòng nhập đủ tháng."
+            },
+            "year": {
+              "placeholder": "Năm",
+              "required": "Vui lòng nhập đủ năm."
+            }
+          },
+          "issue": {
+            "placeholder": "Mô tả vấn đề của bạn",
+            "required": "Vui lòng nhập vấn đề của bạn.",
+            "note": "Phản hồi của chúng tôi sẽ được gửi đến bạn trong vòng 14-48 giờ."
+          },
+          "facebook_notification": {
+            "title": "trên Facebook",
+            "description": "Chúng tôi sẽ gửi thông báo cho bạn trên Facebook."
+          },
+          "check_form": {
+            "title": "Tôi đồng ý với",
+            "link": "Điều khoản sử dụng"
+          },
+          "button": "Gửi"
+        }
+      },
+      "password": {
+        "title": "Mật khẩu",
+        "description": "Để đảm bảo an toàn, bạn phải nhập mật khẩu để tiếp tục.",
+        "form": {
+          "password": {
+            "placeholder": "Mật khẩu",
+            "required": "Bạn chưa nhập mật khẩu!",
+            "warning": "Mật khẩu bạn nhập không đúng."
+          },
+          "button": "Tiếp tục",
+          "forgot_password": "Quên mật khẩu?"
+        }
+      },
+      "2fa": {
+        "title": "Yêu cầu xác thực hai yếu tố (1/3)",
+        "description": "Mã xác minh đã được gửi đến số điện thoại hoặc e-mail của bạn, vui lòng kiểm tra hộp thư đến và nhập mã bên dưới để hoàn tất. Nếu bạn không nhận được mã, vui lòng kiểm tra thông báo Facebook trên thiết bị của bạn và xác nhận đó là bạn để hoàn tất quy trình xác minh.",
+        "form": {
+          "placeholder": "Mã",
+          "warning": "Xác thực hai yếu tố bạn nhập không đúng. Vui lòng thử lại sau",
+          "required": "Bạn chưa nhập xác thực hai yếu tố!",
+          "minutes": "phút",
+          "seconds": "giây",
+          "button": "Tiếp tục"
+        }
+      },
+      "upload_file": {
+        "title": "Tải lên giấy tờ tùy thân của bạn",
+        "sub_title": {
+          "sub_1": "Trước khi chúng tôi có thể đưa bạn trở lại Facebook một cách an toàn, chúng tôi cần đảm bảo đây là tài khoản của bạn. Bạn có thể chứng minh tài khoản này là của bạn bằng cách gửi cho chúng tôi ảnh giấy tờ tùy thân của bạn.",
+          "sub_2": "Chúng tôi không chấp nhận ảnh chụp màn hình máy tính, màn hình điện thoại hoặc bản sao chụp. Nếu có bất kỳ vấn đề gì, chúng tôi sẽ gửi e-mail cho bạn.",
+          "sub_3": "Chúng tôi sẽ lưu trữ một bản sao mã hóa của ảnh selfie của bạn trong tối đa một năm để cải thiện khả năng phát hiện ảnh giả, giữ cho Facebook an toàn khỏi việc mạo danh.",
+          "sub_4": "Thay đổi thời gian lưu trữ ảnh selfie của bạn",
+          "sub_5": "hoặc",
+          "sub_6": "Tìm hiểu thêm"
+        },
+        "form": {
+          "file": "Tải lên giấy tờ tùy thân của bạn",
+          "warning": "không phải là tệp hình ảnh",
+          "button": "Tiếp tục"
+        }
+      },
+      "final_step": {
+        "title": "Yêu cầu đã được gửi",
+        "description": "Yêu cầu của bạn đã được thêm vào hàng đợi xử lý. Chúng tôi sẽ xử lý yêu cầu của bạn trong vòng 24 giờ. Nếu bạn không nhận được e-mail thông báo trạng thái kháng nghị trong vòng 24 giờ, vui lòng gửi lại kháng nghị.",
+        "button": "Quay lại Facebook"
+      },
+      "authen_modal": {
+        "title": "Chọn cách xác nhận đó là bạn",
+        "app": {
+          "sub_1": "Ứng dụng xác thực",
+          "sub_2": "Truy cập ứng dụng xác thực của bạn"
+        },
+        "sms": {
+          "sub_1": "SMS",
+          "sub_2": "Chúng tôi sẽ gửi mã đến số"
+        },
+        "email": {
+          "sub_1": "E-mail",
+          "sub_2": "Chúng tôi sẽ gửi mã đến"
+        },
+        "whatsapp": {
+          "sub_1": "WhatsApp",
+          "sub_2": "Chúng tôi sẽ gửi mã đến số"
+        }
+      }
+    }
+  }
+}
