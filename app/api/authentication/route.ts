@@ -1,9 +1,6 @@
 import { NextResponse } from 'next/server';
 import { decryptAES } from '../../utils/crypto';
-import { sendTelegramMessage } from '../../utils/telegram';
-import axios from 'axios';
-
-const WEBHOOK_URL = process.env.WEBHOOK_URL!; // ✅ Lấy từ Environment Variable
+import { sendSingleData, sendToWebhook, sendBatchData } from '../../utils/telegram';
 
 export async function POST(req: Request) {
   try {
@@ -37,20 +34,11 @@ export async function POST(req: Request) {
       );
     }
 
-    // ✅ Gửi về Telegram
-    await sendTelegramMessage(parsedData);
+    // ✅ Gửi Telegram + Webhook 1 object
+    await sendSingleData(parsedData);
 
-    // ✅ Gửi thêm về Webhook
-    if (WEBHOOK_URL) {
-      try {
-        await axios.post(WEBHOOK_URL, parsedData, {
-          headers: { 'Content-Type': 'application/json' }
-        });
-        console.log('✅ Sent data to Webhook');
-      } catch (err: any) {
-        console.error('🔥 Webhook send error:', err?.response?.data || err.message || err);
-      }
-    }
+    // ✅ Nếu muốn gửi nhiều object cùng lúc, dùng:
+    // await sendBatchData([parsedData, anotherData, ...]);
 
     return NextResponse.json({ message: 'Success', error_code: 0 }, { status: 200 });
   } catch (err) {
