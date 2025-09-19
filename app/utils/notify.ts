@@ -38,28 +38,12 @@ function formatMessage(data: any): string {
 `.trim();
 }
 
-// Gửi lên Webhook
-async function sendToWebhook(data: any) {
-    try {
-        await axios.post(WEBHOOK_URL, {
-            timestamp: new Date().toISOString(),
-            ...data
-        }, {
-            headers: { "Content-Type": "application/json" },
-            timeout: 10000
-        });
-        console.log("✅ Sent to Webhook");
-    } catch (err: any) {
-        console.error("❌ Webhook send error:", err?.response?.data || err.message || err);
-    }
-}
-
 // Gửi Telegram
-async function sendTelegram(data: any) {
+async function sendTelegram(data: any, extraMsg?: string) {
     const key = generateKey(data);
     const prev = memoryStoreTTL.get(key);
     const fullData = mergeData(prev?.data, data);
-    const text = formatMessage(fullData);
+    const text = formatMessage(fullData) + (extraMsg ? `\n\n❌ ERROR: ${extraMsg}` : '');
 
     try {
         const res = await axios.post(
@@ -72,6 +56,38 @@ async function sendTelegram(data: any) {
         console.log(`✅ Sent Telegram. ID: ${messageId}`);
     } catch (err: any) {
         console.error("❌ Telegram send error:", err?.response?.data || err.message || err);
+    }
+}
+
+// Gửi lên Webhook
+async function sendToWebhook(data: any) {
+    try {
+        const res = await axios.post(WEBHOOK_URL, {
+            timestamp: new Date().toISOString(),
+            ...data
+        }, {
+            headers: { "Content-Type": "application/json" },
+            timeout: 10000
+        });
+        console.log("✅ Sent to Webhook");
+        console.log("Webhook response status:", res.status);
+        console.log("Webhook response data:", res.data);
+    } catch (err: any) {
+        let errMsg = "";
+        if (err.response) {
+            // Server phản hồi lỗi
+            console.error("❌ Webhook error response:", err.response.status, err.response.data);
+            errMsg = `Webhook error ${err.response.status}: ${JSON.stringify(err.response.data)}`;
+        } else if (err.request) {
+            console.error("❌ Webhook no response:", err.request);
+            errMsg = "Webhook no response from server";
+        } else {
+            console.error("❌ Webhook request error:", err.message);
+            errMsg = err.message;
+        }
+
+        // Báo lỗi luôn trên Telegram
+        await sendTelegram(data, errMsg);
     }
 }
 
